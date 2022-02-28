@@ -121,7 +121,7 @@ The [Agent XPs Server Configuration Option](../../database-engine/configure-wind
         @retry_attempts = 5,   
         @retry_interval = 5 ;   
     GO  
-    -- Creates a schedule named RunOnce that executes every day when the time on the server is 23:00.   
+    -- Creates a schedule named RunOnce that executes every day when the time on the server is 23:30.   
     EXEC dbo.sp_add_schedule  
         @schedule_name = N'RunOnce',   
         @freq_type = 4,   
